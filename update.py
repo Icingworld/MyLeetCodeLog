@@ -25,7 +25,7 @@ def updateList():
                 for file in files:
                     filename = file[:-3]
                     order, name = filename.split('.')
-                    all_files.append({"order": order, "name": name})
+                    all_files.append({"order": int(order), "name": name})
 
             all_files.sort(key=lambda x: x['order'])
             for file in all_files:
