@@ -13,7 +13,7 @@ yes = ['y', 'Y', 'yes', 'Yes']
 no = ['n', 'N', 'no', 'No']
 
 def updateList():
-    folders = ['easy', 'moderate', 'hard']
+    folders = ['easy', 'medium', 'hard']
     all_files = []
 
     with open('List.md', 'w', encoding='utf-8') as f:
